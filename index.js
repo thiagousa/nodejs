@@ -4,7 +4,7 @@ const port = 3000;
 const basicAuth = require('basic-auth-connect');
 
 // Set up basic authentication middleware
-const auth = basicAuth('tsantos', '$A6785807165z');
+const auth = basicAuth('admin', '123456');
 
 app.use(auth); // Protect all routes with basic authentication
 
